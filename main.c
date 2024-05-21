@@ -46,13 +46,13 @@ coin input_enum(int fm) {
 
 void print_enum(coin fmoney) {
     switch (fmoney) {
-        case PENNY: puts("Пенні");
+        case PENNY: puts("Пенні\n0.01$");
             break;
-        case NICKEL: puts("Нікель");
+        case NICKEL: puts("Нікель\n0.05$");
             break;
-        case DIME: puts("Монета в 10 центів");
+        case DIME: puts("Монета в 10 центів\n0.10$");
             break;
-        case QUARTER: puts("Чверть доллара");
+        case QUARTER: puts("Чверть доллара\n0.25$");
             break;
         default: puts("Помилка");
     }
